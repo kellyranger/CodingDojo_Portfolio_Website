@@ -1,0 +1,130 @@
+* {
+    /*outline: 2px dotted red;*/
+    margin: 0;
+    padding: 0;
+    font-family: Geneva, Tahoma, sans-serif;
+
+}
+
+img {
+    width: 100%;
+    vertical-align: top;
+}
+
+.name {
+width: 960px;
+min-height: 20px;
+display: block;
+margin: 0 auto;
+padding: 20px;
+background-color: #f2edf2;
+}
+    .name p {
+    font-family: 'Comic Sans MS';
+    font-size: 2.5em;
+    font-weight: bolder;
+    }
+
+.container {
+    width: 960px;
+    height: auto;
+    min-height: 800px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-image: radial-gradient(circle, #e7e7e7, #3b282f);
+}
+
+.header {
+    min-height: 350px;
+    display: block;
+}
+
+.headbox1 {
+    width: 45%;
+    min-height: 275px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 7px ;
+    border-color: #c0c0c0;
+    margin: 10px 0 0 30px;
+    vertical-align: top;
+}
+.headbox2 {
+    width: 45%;
+    min-height: 275px;
+    display: inline-block;
+    border-style: solid;
+    border-width: 7px ;
+    border-color: #c0c0c0;
+    margin: 10px 0 0 30px;
+    background-image: linear-gradient( 
+        to left, #dbccda, #ffffff );    
+}
+        .headbox2 p{
+            padding: .5em;
+        }
+.titleBox {
+    width: auto;
+    height: 30px;
+    display: block;
+    color: white;
+    font-size: 1.2em;
+    padding: .5em;
+    background-image: radial-gradient( #888693,#c0c0c0)
+}
+
+.main {
+    width: 960px;
+    height: auto;
+    min-height: 400px;
+    display: block;
+    
+}
+
+.mainbox {
+    width: 30%;
+    height: auto;
+    min-height: 500px;
+    display: inline-block;
+    margin:  13px;
+    background-image: linear-gradient( to left,
+     #dbccda, #ffffff );
+     vertical-align: top;
+}
+.maintext {
+    size: .75em;
+    margin: 3px;
+}
+
+.icons {
+    size: .75;
+}
+    .icons img{
+        height: 50px;
+        width: auto;
+        display: inline-block;
+        vertical-align: top;
+    }
+
+button {
+    margin: 30px 30px 30px 85px;
+    padding: 7px;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 10px 30px 0 rgba(0,0,0,0.19);
+}
+
+.footer {
+    width: 960px;
+    min-height: 35px;
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2edf2;
+    }
+
+/*gradient color : dark #3b282f
+    gradient color: light #e7e7e7
